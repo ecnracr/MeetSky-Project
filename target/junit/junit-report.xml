@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.286">
+    <testcase classname="As a user, I should be able to log out." name="User should be able to log out and ends up in login page" time="0.016">
+        <system-out>
+            <![CDATA[Given User logs in with valid credentials...................................passed
+Given User click to settings expand button on top-right corner..............passed
+When Click to Log out button................................................passed
+Then User should be able to logged out successfully and can see the login page.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user, I should be able to log out." name="User shouldn't be able to go to the home page again by clicking step back button after successfully logged out" time="0">
+        <system-out>
+            <![CDATA[Given User logs in with valid credentials...................................passed
+Given User click to settings expand button on top-right corner..............passed
+When Click to Log out button................................................passed
+Then User should be able to logged out successfully and can see the login page.passed
+And User should not be able to go to home page again by clicking step back button.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
